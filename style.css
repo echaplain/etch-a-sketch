@@ -1,10 +1,36 @@
-
-body{
+body {
     font-family: monospace;
     font-size: 10px;
-}
+    background-color: rgb(222, 220, 220);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    cursor: pointer;
+  }
 
-button {
+  button {
     font-family: monospace;
     font-size: 10px;
-}
+    border-radius: 20px;
+  }
+
+  .button-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 8px;
+    background-color: rgb(188, 3, 3);
+    width: 200px;
+  }
+
+  footer {
+    margin-top: 30px;
+    font-size: 9px;
+  }
+
+ 
+
+  
