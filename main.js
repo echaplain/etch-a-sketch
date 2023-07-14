@@ -57,8 +57,8 @@ button2.addEventListener("click", draw);
 const button3 = document.getElementById("rainbow");
 
 function colors() {
-    //document.removeEventListener("mouseover", erase);
-    // document.removeEventListener("mouseover", draw);
+    document.removeEventListener("mouseover", erase);
+    document.removeEventListener("mouseover", draw);
     document.addEventListener("mouseover", function(event) {
         const target = event.target;
         if (target.classList.contains("column")) {
